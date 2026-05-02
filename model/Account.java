@@ -43,4 +43,13 @@ public abstract class Account {
     public List<Transaction> geTransactions() {
         return transactions;
     }
+
+    // Get balance Method
+    public double getBalance(){
+        return balance;
+    }
+    // Get Transaction Method
+    public List<Transaction> getTransactions() {
+        return transactions;
+    }
 }
