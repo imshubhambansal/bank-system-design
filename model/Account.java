@@ -48,8 +48,14 @@ public abstract class Account {
     public double getBalance(){
         return balance;
     }
+    
     // Get Transaction Method
     public List<Transaction> getTransactions() {
         return transactions;
+    }
+
+    // Get Account Number Method
+    public String getAccountNumber(){
+        return accountNumber;
     }
 }
